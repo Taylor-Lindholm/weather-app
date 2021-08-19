@@ -1,0 +1,201 @@
+.location-box {
+    background-image: linear-gradient(
+            121deg
+            , #17a2b8, transparent);
+    width: 50%;
+    height: 4em;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+}
+.location-box h3{
+    font-size: xxx-large;
+    font-family: 'Lobster', cursive;
+}
+.location-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+body {
+    background-size: cover;
+}
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1px;
+}
+.another-one{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+*::-webkit-scrollbar{
+    display: none;
+}
+.invisible-scrollbar{
+    overflow: scroll;
+    overflow-y: hidden;
+}
+
+.weather-cards{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 4px;
+    height: 75%;
+
+    justify-content: space-evenly;
+    width: max-content;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.map-selector {
+    margin-right: 8px;
+}
+.map{
+    display: flex;
+    justify-content: center;
+    border-radius: 25px;
+    margin-bottom: 100px;
+}
+.map-hidden{
+    visibility: hidden;
+}
+.options-select{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4px;
+
+}
+.snowy{
+    background-image: url("../images/snowy.jpg")
+}
+.thunderstorm{
+    background-image: url("../images/thunderstorm.jpg")
+}
+.sunny{
+    background-image: url("../images/sunny.jpg");
+}
+
+.location-box-sunny{
+    background-image: linear-gradient(
+            121deg,
+            #fdfdfd, transparent);
+}
+
+.cloudy{
+    background-image: url("../images/cloudy.jpg");
+}
+
+.location-box-cloudy{
+    background-image: linear-gradient(
+            121deg,
+            #fdfdfd, transparent);
+}
+
+.windy{
+    background-image: url("../Images/monique-carrati-ekRRG_cdT8I-unsplash.jpg")
+}
+/*cards*/
+.stretch-card>.card {
+    width: 100%;
+    min-width: 100%
+}
+
+body {
+    background-color: #f9f9fa
+}
+
+.flex {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto
+}
+
+@media (max-width:767.98px) {
+    .padding {
+        padding: 1rem
+    }
+}
+
+.grid-margin,
+.purchace-popup>div {
+    margin-bottom: 25px
+}
+
+.card {
+    border: 0;
+    border-radius: 2px;
+    min-width: 25%;
+    margin: 2em;
+}
+
+.card-weather {
+    background: #e1ecff;
+    background-image: linear-gradient(to left bottom, #d6eef6, #dff0fa, #e7f3fc, #eff6fe, #f6f9ff)
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem
+}
+
+.card-weather .card-body:first-child {
+    background: url(https://res.cloudinary.com/dxfq3iotg/image/upload/v1557323760/weather.svg) no-repeat center;
+    background-size: cover
+}
+
+.card .card-body {
+    padding: 1.88rem 1.81rem
+}
+
+.card-body {
+    flex: 1 1 auto;
+    padding: 1.25rem
+}
+
+.text-gray,
+.card-subtitle,
+.new-accounts ul.chats li.chat-persons a p.joined-date {
+    color: #969696
+}
+.text-gray,
+.card-subtitle,
+.new-accounts ul.chats li.chat-persons a p.joined-date {
+    color: #969696
+}
+.display-3 {
+    font-size: 20px
+}
+.card-weather .card-body {
+    background: #ffffff
+}
+.card-weather .weakly-weather {
+    background: #ffffff;
+    overflow-x: auto
+}
+.card-weather .weakly-weather .weakly-weather-item {
+    flex: 0 0 14.28%;
+    border-right: 1px solid #f2f2f2;
+    padding: 1rem;
+    text-align: center
+}
+.mb-0,
+.my-0 {
+    margin-bottom: 0 !important
+}

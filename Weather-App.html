@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.2.0/mapbox-gl.js'></script>
+
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.2.0/mapbox-gl.css'
+          rel='stylesheet' />
+
+    <!-- Bootstrap and CSS -->
+
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+          crossorigin="anonymous">
+
+    <link rel="stylesheet"
+          href="css/weather_map.css">
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Oswald&display=swap" rel="stylesheet">
+
+    <title>General Weather</title>
+
+</head>
+<body class="">
+<!--header-->
+<div class="location-container">
+    <div class="location-box">
+    </div>
+</div>
+
+<!--search-->
+
+<nav class="navbar">
+    <a class="navbar-brand"></a>
+    <form class="form-inline">
+        <input class="form-control mr-sm-2" placeholder="Location" type="search"  aria-label="Search">
+        <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Search</button>
+    </form>
+</nav>
+<div class="options-select">
+    <div class="map-selector form-check">
+        <label class="form-check-label">
+            <input type="checkbox" class="form-check-input" value=""> Map
+        </label>
+    </div>
+    <select id="day-int-select" class="btn-outline-info">
+        <option class="day-options" value="2">3 Days</option>
+        <option class="day-options" value="4">5 Days</option>
+        <option class="day-options" value="6">7 Days</option>
+    </select>
+</div>
+
+<!--weather cards-->
+<div class="another-one">
+    <div class="invisible-scrollbar">
+        <div class="weather-cards">
+        </div>
+    </div>
+</div>
+<!--map-->
+
+<div class="map map-hidden">
+    <div id='map' style='width: 300px; height: 300px;'></div>
+</div>
+
+<!-- keys -->
+<script src="js/keys.js"></script>
+
+<!-- geocoder -->
+<script src="js/mapbox-geocoder-utils.js"></script>
+
+<!-- custom js/jquery -->
+<script src="js/weather_map.js"></script>
+
+<!-- bootstrap -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+</html>

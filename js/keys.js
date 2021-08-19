@@ -1,0 +1,3 @@
+var mapBoxKey = "pk.eyJ1IjoidGF5bG9yLWxpbmRob2xtIiwiYSI6ImNrbmFqcjU5dDFpOTcyb2xnNXhpdmU2OXEifQ.8xeFjC4qfgl_6GXoM1cn7Q"
+
+var weatherMapKey = "6f115f3131b4720f2b23068719d5f58e"
